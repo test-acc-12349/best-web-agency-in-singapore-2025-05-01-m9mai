@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Web Agency In Singapore | Professional Web Development</title>
+    <meta name="description" content="Leading web agency in Singapore helping businesses grow with professional web development services. Easy to use, responsive design, and fast loading websites.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+    <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4" x-data="{ isOpen: false }">
+            <div class="flex items-center justify-between">
+                <div class="text-xl font-bold tracking-tight">
+                    <a href="/" class="text-white hover:text-blue-400 transition duration-300">
+                        WebAgency<span class="text-blue-500">SG</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-300 hover:text-white transition duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition duration-300">Benefits</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition duration-300">Contact</a>
+                </div>
+                <button @click="isOpen = !isOpen" class="md:hidden focus:outline-none">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path x-show="!isOpen" d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                        <path x-show="isOpen" d="M6.343 6.343l11.314 11.314m-11.314 0L17.657 6.343"></path>
+                    </svg>
+                </button>
+            </div>
+            <div x-show="isOpen" class="md:hidden mt-4 space-y-4">
+                <a href="#features" class="block text-gray-300 hover:text-white transition duration-300">Features</a>
+                <a href="#benefits" class="block text-gray-300 hover:text-white transition duration-300">Benefits</a>
+                <a href="#faq" class="block text-gray-300 hover:text-white transition duration-300">FAQ</a>
+                <a href="#contact" class="block text-gray-300 hover:text-white transition duration-300">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] opacity-20 bg-cover bg-center"></div>
+            <div class="container mx-auto px-6 py-24 relative z-10">
+                <div class="text-center max-w-4xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">
+                        Best Web Agency In Singapore
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
+                        Grow your business with clicks
+                    </p>
+                    <a href="https://fixrr.online" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/25">
+                        Get Started Today
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-gray-900 rounded-xl p-8 transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/10">
+                        <div class="text-blue-500 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Easy to Use</h3>
+                        <p class="text-gray-400">Intuitive interface designed for seamless user experience and effortless navigation.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-8 transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/10">
+                        <div class="text-blue-500 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Responsive Design</h3>
+                        <p class="text-gray-400">Perfectly optimized for all devices, ensuring a consistent experience across platforms.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-8 transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/10">
+                        <div class="text-blue-500 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Fast Loading</h3>
+                        <p class="text-gray-400">Optimized performance ensuring lightning-fast load times and smooth user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="text-center">
+                        <div class="bg-blue-600/10 rounded-full p-6 w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+                            <svg class="w-12 h-12 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Save Time</h3>
+                        <p class="text-gray-400">Streamlined processes that save you valuable time and resources.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-blue-600/10 rounded-full p-6 w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+                            <svg class="w-12 h-12 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Increase Conversions</h3>
+                        <p class="text-gray-400">Optimized designs that drive better conversion rates and results.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-blue-600/10 rounded-full p-6 w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+                            <svg class="w-12 h-12 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Professional Look</h3>
+                        <p class="text-gray-400">Premium designs that elevate your brand and credibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto space-y-6" x-data="{selected:null}">
+                    <div class="bg-gray-900 rounded-lg">
+                        <button @click="selected !== 1 ? selected = 1 : selected = null" class="flex justify-between items-center w-full p-6 focus:outline-none">
+                            <span class="font-semibold text-left">What services do you offer?</span>
+                            <svg class="w-6 h-6 transform transition-transform duration-300" :class="{'rotate-180': selected == 1}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div x-show="selected == 1" class="p-6 pt-0 text-gray-400">
+                            We offer comprehensive web development services including custom website design, e-commerce solutions, and digital marketing strategies.
+                        </div>
+                    </div>
+                    <!-- Add more FAQ items as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 bg-gradient-to-r from-blue-600 to-blue-800">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Grow Your Business?</h2>
+                <p class="text-xl mb-12 text-gray-200">Take the first step towards digital success today.</p>
+                <a href="https://fixrr.online" class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 shadow-lg">
+                    Get Started Now
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">WebAgencySG</h3>
+                    <p class="text-gray-400">Professional web development services in Singapore.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400">contact@example.com</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition duration-300">About</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 WebAgencySG. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
